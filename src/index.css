@@ -1,0 +1,302 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+.active{
+  color: #f05837!important;
+  text-decoration: none;
+}    
+nav{
+  padding: 5px;
+  height: 50px;
+  background-color: #282726;
+}
+.logo{
+  display: flex;
+  justify-content: space-between;
+}
+.inLogo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+img{
+  height: 40px;
+  width: 200px;
+}
+.Main{
+  padding-top: 40px;
+  background-color: #f05837;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.div{
+  margin-left: 20px;
+}
+.content{
+  width: 800px;
+}
+html{
+background-color: #f05837;
+}
+
+
+.about{
+  background-color: #f05837;  
+}
+.about-content{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.about-img{
+  float: right;
+  height: auto;
+  width: auto;
+  border-radius: 15px;
+}
+.about-motiv{
+  color:azure;
+  user-select: none;
+  cursor: pointer;
+  width: 550px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  background-color: #282726;
+}
+.about-motiv2{
+  margin-bottom: 0;
+}
+
+.calendar{
+  border-radius: 15px;
+  background-color: #2b1e0d!important;
+  padding: 3px;
+  zoom: 0.9;
+  margin-right: 0!important;
+}
+.react-calendar__month-view__weekdays__weekday{
+  color:azure!important;
+}
+.react-calendar__month-view__days button{
+  font-weight: bolder!important;
+}
+.react-calendar__navigation__label{
+  height: 30px!important;
+}
+.divCalendar{
+  border: 3px solid rgb(63, 11, 11);
+  width: fit-content;
+  height: fit-content;
+  border-radius: 15px;
+  margin: 20px;
+}
+.diaryPage{
+  width: 500px;
+  margin: 20px;
+  border-radius: 15px;
+  background-color: #282726;
+  color:azure;
+  padding: 15px;
+}
+.diaryContainer{
+  background-color: #f05837;
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+.diaryContainer1{
+  display: flex;
+  flex-direction: column;
+}
+.diaryContainer2{
+  text-align: center;
+}
+.diaryQuerry{
+  border-radius: 15px;
+  margin: 20px;
+}
+.diaryTextarea{
+  width:100%;
+  height: 500px!important;
+}
+.diaryButton{
+  font-size: 25px;
+  outline: none!important;
+  margin-bottom: 15px;
+}
+.calendar button{
+  border-radius: 15px;
+}
+
+.news{
+  background-color: #f05837;
+}
+.newsList{
+  border-radius: 15px;
+  background-color: #282726;
+  margin: 20px;
+  padding: 5px;
+  padding-left: 7px;
+}
+.newsP{
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  color:azure;
+}
+.newsP:hover{
+  color:rgba(240, 255, 255, 0.575);
+  cursor: pointer;
+  user-select: none;
+}
+.newsLoadDiv{
+  text-align: center;
+  padding-top: 50px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;  
+  font-weight: bolder;
+}
+.newsLoad{
+  background-color: #f05837;
+}
+.newsDet{
+  background-color: #f05837;
+}
+.newsDet p{
+  padding: 20px;
+}
+.newsDetUrl{
+  color:rgb(29, 136, 185);
+}
+.newsDetUrl:hover{
+  text-decoration: none;
+}
+.newsDetDiv{
+  height: 300px;
+  display: flex;
+  margin-bottom: 20px;
+}
+.newsDetDivContent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  height: 300px;
+  background-color: #282726;
+  color: azure;
+  border-radius: 15px;
+}
+.newsDetDivGoTo{
+  padding: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  width: fit-content;
+  background-color: #282726;
+  color: azure;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+}
+.newsDetDivImg{
+  height: 300px;
+  width: 450px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.newsDetImg{
+  border-radius: 15px;
+  height: 300px;
+  width: 450px;
+}
+
+.login-container{
+  background-color: #f05837;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: center;
+}
+.login-logo{
+  position: relative;
+  margin-left: -41.5%;
+}
+.login-logo img{
+  position: absolute;
+  width: 20%;
+  margin-top: 19%;
+  background: #282726;
+  border-radius: 4.5rem;
+  padding: 5%;
+}
+.login-form-1{
+  border-radius: 15px;
+  padding: 9%;
+  background:#282726;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-1 h3{
+  text-align: center;
+  margin-bottom:12%;
+  color:#fff;
+}
+.input{
+  margin-bottom: 10px;
+}
+.buttons{
+  display: flex;
+  justify-content: space-around;
+}
+.navRight{
+  display:flex;
+}
+.navDisplayName{
+  color:azure;
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btnSubmit{
+  font-weight: 600;
+  width: 100px;
+  color: #282726;
+  background-color: #fff;
+  border: none;
+  border-radius: 15px;
+  padding:2%;
+  outline: none!important;
+  cursor: pointer;
+}
+.btnSubmit:hover{
+  color: #f05837;
+  text-decoration: none;
+}
+.form-group:nth-last-child(1){
+  text-align: center;
+  margin-top: 25px;
+}
+.autorow{
+  width: 500px;
+}
+.authH3{
+  user-select: none;
+}

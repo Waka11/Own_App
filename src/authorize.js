@@ -25,7 +25,7 @@ class Authorize extends React.Component {
         database.ref().child(this.state.currentUser.uid).child('email').set(this.state.currentUser.email);
         database.ref().child(this.state.currentUser.uid).child('notes').set('NOTES');
         database.ref().child(this.state.currentUser.uid).child('stories').set('STORIES');
-        // console.log(this.state.currentUser.displayName);
+        console.log(this.state.currentUser.displayName);
         store.dispatch(logUser(this.state.currentUser.displayName));
     }
 
@@ -64,7 +64,7 @@ class Authorize extends React.Component {
 }
 
 const mapStateToProps = (state) => {
-    // console.log('STATE', state);
+    console.log('STATE', state);
     return {
     }
 }

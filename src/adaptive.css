@@ -1,52 +1,91 @@
 @media screen and (max-width: 700px) {
-    .nav-link{
-        padding: 5px!important;
-    }
-    .content, .face{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-    }
-    b{
-        margin-right: 0!important;
-    }
-    i{
-        margin-left: 0!important;
-    }
-    .textArea, .appNote{
-        width: 300px!important;
-    }
-    .noteAdd{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .noteLogo{
-        display: none;
-    }
-    .logo{
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-    .div{
-        margin-bottom: 20px;
-    }
-}
-
-button{
-    align-self: center;
-}
-
-.diaryContainer{
+  .nav-link {
+    padding: 5px !important;
+  }
+  .content,
+  .face {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap-reverse;
+    justify-content: center;
+    flex-direction: column;
+  }
+  b {
+    margin-right: 0 !important;
+  }
+  i {
+    margin-left: 0 !important;
+  }
+  .textArea,
+  .appNote {
+    width: 300px !important;
+  }
+  .noteAdd {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .noteLogo {
+    display: none;
+  }
+  .logo {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .div {
+    margin-bottom: 20px;
+  }
 }
 
-@media screen and (max-width: 900px) {
-    .diaryContainer{
-        zoom: 0.8;
-        justify-content: center;
-    }
+button {
+  align-self: center;
+}
+
+.diaryContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap-reverse;
+}
+
+@media screen and (max-width: 925px) {
+  .diaryContainer {
+    zoom: 0.8;
+    justify-content: center;
+  }
+  .about-motiv {
+    width: fit-content;
+    height: fit-content;
+  }
+  .newsDetDivImg {
+    display: none;
+  }
+  .newsDetImg2,
+  .newsDetDivImg2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  .newsDetDivGoTo {
+    
+  }
+  .newsDetDivGoTo span {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  nav {
+    height: 80px;
+  }
+  nav ul {
+    flex-direction: column-reverse;
+  }
+  .navRight,
+  .inLogo {
+    justify-content: space-around;
+  }
+  .newsDetImg2,
+  .newsDetDivImg2,
+  .newsDetDivGoTo {
+    zoom: 0.8;
+  }
 }

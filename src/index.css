@@ -59,6 +59,7 @@ background-color: #f05837;
 .about-content{
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   margin-top: 20px;
   margin-left: 20px;
 }
@@ -79,9 +80,11 @@ background-color: #f05837;
   justify-content: center;
   border-radius: 15px;
   background-color: #282726;
+  margin-bottom: 15px;
 }
 .about-motiv2{
   margin-bottom: 0;
+  padding: 10px;
 }
 
 .calendar{
@@ -207,14 +210,20 @@ background-color: #f05837;
 }
 .newsDetDivGoTo{
   padding: 20px;
-  margin-right: 20px;
-  margin-left: 20px;
+  margin: 20px;
   width: fit-content;
   background-color: #282726;
   color: azure;
   border-radius: 15px;
   display: flex;
   align-items: center;
+}
+.newsDetDivGoTo2{
+  display: flex;
+  justify-content: center;
+}
+.newsDetDivGoTo span{
+  margin: 0;
 }
 .newsDetDivImg{
   height: 300px;
@@ -226,6 +235,19 @@ background-color: #f05837;
   border-radius: 15px;
   height: 300px;
   width: 450px;
+}
+.newsDetDivImg2{
+}
+.newsDetImg2{
+  height: 300px;
+  width: 450px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 15px;
+  height: 300px;
+  width: 450px;
+    display: none;
+
 }
 
 .login-container{

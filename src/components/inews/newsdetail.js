@@ -22,6 +22,9 @@ class NewsDetail extends React.Component {
                     :
                     <div className='newsDet'>
                         <p>{Props.title}</p>
+                        <div className='newsDetDivImg2'>
+                            <img src={Props.urlToImage} alt={Props.author} className='newsDetImg2' />
+                        </div>
                         <div className='newsDetDiv'>
                             <div className='newsDetDivContent'>
                                 {Props.content}
@@ -30,7 +33,13 @@ class NewsDetail extends React.Component {
                             <img src={Props.urlToImage} alt={Props.author} className='newsDetImg'/>   
                             </div>
                         </div>
-                        <div className='newsDetDivGoTo'>For more information, please move this link to URL line: &nbsp;&nbsp;&nbsp; <b><a href={Props.url} target="_blank" className='newsDetUrl'>{Props.url}</a></b></div>
+                        <div className='newsDetDivGoTo2'>
+                            <div className='newsDetDivGoTo'>
+                                <span className='newsDetDivGoToSpan'>For more information, please move this link to URL line: &nbsp;&nbsp;&nbsp; </span>
+                            <b><a href={Props.url} target="_blank" className='newsDetUrl'>{Props.url}</a></b>
+                            </div>
+                        </div>
+                        
                     </div>
                 }
 
